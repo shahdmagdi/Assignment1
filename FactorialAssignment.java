@@ -13,22 +13,22 @@ import java.util.Scanner;
 public class FactorialAssignment {
     private int number;
 
-    // Constructor to initialize the number
+
     public FactorialAssignment(int number) {
         this.number = number;
     }
 
-    // Getter for number
+    
     public int getNumber() {
         return number;
     }
 
-    // Setter for number
+
     public void setNumber(int number) {
         this.number = number;
     }
 
-    // Method to calculate factorial
+    
     public int calculateFactorial() {
         int result = 1;
         for (int i = 1; i <= number; i++) {
@@ -53,16 +53,16 @@ public class FactorialAssignment {
     }
 }
 
-// Additional class in the same file
+
 class FactorialHelper {
     private FactorialAssignment factorialAssignment;
 
-    // Constructor to initialize with FactorialAssignment instance
+    
     public FactorialHelper(FactorialAssignment factorialAssignment) {
         this.factorialAssignment = factorialAssignment;
     }
 
-    // Method to print the number from the FactorialAssignment instance
+    
     public void printNumber() {
         System.out.println("The number stored in FactorialAssignment is: " + factorialAssignment.getNumber());
     }
